@@ -21,10 +21,16 @@
     <ClCompile Include="Figure2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Square.cpp">
+    <ClCompile Include="Oshape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="OutPut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lshape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,10 +38,16 @@
     <ClInclude Include="Figure2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Square.h">
+    <ClInclude Include="Oshape.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="OutPut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lshape.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

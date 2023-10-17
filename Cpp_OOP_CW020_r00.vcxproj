@@ -129,13 +129,17 @@
   <ItemGroup>
     <ClCompile Include="Cpp_OOP_CW020_r00.cpp" />
     <ClCompile Include="Figure2D.cpp" />
+    <ClCompile Include="Lshape.cpp" />
     <ClCompile Include="OutPut.cpp" />
-    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="Jshape.cpp" />
+    <ClCompile Include="Oshape.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Figure2D.h" />
+    <ClInclude Include="Lshape.h" />
     <ClInclude Include="OutPut.h" />
-    <ClInclude Include="Square.h" />
+    <ClInclude Include="Jshape.h" />
+    <ClInclude Include="Oshape.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

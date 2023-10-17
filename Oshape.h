@@ -1,15 +1,15 @@
 #pragma once
 
-#ifndef SQUARE_H
-#define SQUARE_H
+#ifndef OSHAPE_H
+#define OSHAPE_H
 
 #include "Figure2D.h"
 
-class Square final:
+class Oshape final:
     public Figure2D
 {
 private:
-    char square[size][size];
+    char shapeO[size][size];
 
 public:
     /*Square() : Figure2D()
@@ -26,8 +26,8 @@ public:
 
     }*/
 
-    Square() : Figure2D(square),
-        square{
+    Oshape() : Figure2D(shapeO),
+        shapeO{
         { '*', '*', ' ', ' ' }, 
         { '*', '*', ' ', ' ' },
         { ' ', ' ', ' ', ' ' },

@@ -7,6 +7,14 @@ int main()
 	cout << "\n\tshapeO\n";
 	showFigure(tetris[0].getPtrFigure(), tetris[0].getSize(), tetris[0].getSize());
 
+	++tetris;
+	cout << "\n\tshapeL\n";
+	showFigure(tetris[0].getPtrFigure(), tetris[0].getSize(), tetris[0].getSize());
+	
+	--tetris;
+	cout << "\n\tshapeO\n";
+	showFigure(tetris[0].getPtrFigure(), tetris[0].getSize(), tetris[0].getSize());
+
 	return 0;
 }
 ;

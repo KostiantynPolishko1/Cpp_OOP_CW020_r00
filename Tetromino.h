@@ -3,26 +3,38 @@
 #ifndef TETROMINO_H
 #define TETROMINO_H
 
-#include "Oshape.h"
 #include "Jshape.h"
+#include "Ishape.h"
+#include "Oshape.h"
 #include "Lshape.h"
+#include "Zshape.h"
+#include "Tshape.h"
+#include "Sshape.h"
 
 class Tetromino
 {
 private:
-	const static short count = 3;
+	const static short count = 7;
 	short index;
 	Figure2D tetFigure[count];
+	Jshape shapeJ;
+	Ishape shapeI;
 	Oshape shapeO;
 	Lshape shapeL;
-	Jshape shapeJ;
+	Zshape shapeZ;
+	Tshape shapeT;
+	Sshape shapeS;
 
 public:
-	Tetromino() : index{0}, shapeO {}, shapeL{}, shapeJ{}
+	Tetromino() : index{0}, shapeJ {}, shapeI{}, shapeO{}, shapeL{}, shapeZ{}, shapeT{}, shapeS{}
 	{
-		tetFigure[0] = shapeO.getFigure2D();
-		tetFigure[1] = shapeL.getFigure2D();
-		tetFigure[2] = shapeJ.getFigure2D();
+		tetFigure[0] = shapeJ.getFigure2D();
+		tetFigure[1] = shapeI.getFigure2D();
+		tetFigure[2] = shapeO.getFigure2D();
+		tetFigure[3] = shapeL.getFigure2D();
+		tetFigure[4] = shapeZ.getFigure2D();
+		tetFigure[5] = shapeT.getFigure2D();
+		tetFigure[6] = shapeS.getFigure2D();
 	}
 
 #pragma region operators

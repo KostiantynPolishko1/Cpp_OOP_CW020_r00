@@ -133,6 +133,7 @@
     <ClCompile Include="OutPut.cpp" />
     <ClCompile Include="Jshape.cpp" />
     <ClCompile Include="Oshape.cpp" />
+    <ClCompile Include="Tetromino.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Figure2D.h" />
@@ -140,6 +141,7 @@
     <ClInclude Include="OutPut.h" />
     <ClInclude Include="Jshape.h" />
     <ClInclude Include="Oshape.h" />
+    <ClInclude Include="Tetromino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

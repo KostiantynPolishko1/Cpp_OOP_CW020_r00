@@ -33,6 +33,9 @@
     <ClCompile Include="Lshape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Tetromino.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Figure2D.h">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Lshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetromino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

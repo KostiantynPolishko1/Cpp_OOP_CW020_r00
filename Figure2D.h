@@ -6,22 +6,28 @@
 class Figure2D
 {
 private:
-	Figure2D() : figure{}, rotate{} {}
 
 protected:
-	char* figure;
+	char* prtFigure;
 	short rotate;
 	const static short size = 4;
 
+public:
+	Figure2D() : prtFigure{}, rotate{} {}
+
 	Figure2D(char figure[size][size]) : rotate{}
 	{
-		this->figure = &figure[0][0];
+		this->prtFigure = &figure[0][0];
 		figure = nullptr;
 	}
 
 public:
-	char* getFigure() const {
-		return this->figure;
+	char* getPtrFigure() const {
+		return this->prtFigure;
+	}
+
+	Figure2D getFigure2D() const {
+		return *this;
 	}
 
 	short getSize() const {

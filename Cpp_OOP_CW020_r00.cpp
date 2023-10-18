@@ -1,21 +1,11 @@
 #include "OutPut.h"
-#include "Oshape.h"
-#include "Jshape.h"
-#include "Lshape.h"
+#include "Tetromino.h"
 
 int main()
 {
-	Oshape shapeO;
+	Tetromino tetris;
 	cout << "\n\tshapeO\n";
-	showFigure(shapeO.getFigure(), shapeO.getSize(), shapeO.getSize());
-
-	Jshape shapeJ;
-	cout << "\n\tshapeJ\n";
-	showFigure(shapeJ.getFigure(), shapeJ.getSize(), shapeJ.getSize());
-
-	Lshape shapeL;
-	cout << "\n\tshapeJ\n";
-	showFigure(shapeL.getFigure(), shapeL.getSize(), shapeL.getSize());
+	showFigure(tetris[0].getPtrFigure(), tetris[0].getSize(), tetris[0].getSize());
 
 	return 0;
 }

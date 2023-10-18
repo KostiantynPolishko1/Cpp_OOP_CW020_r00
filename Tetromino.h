@@ -48,8 +48,10 @@ public:
 #pragma region methods
 	void setIndex0() 
 	{
-		if (this->index == count || this->index < 0)
+		if (this->index == count)
 			this->index = 0;
+		else if (this->index < 0)
+			this->index = count - 1;
 	}
 
 	short getIndex() const {

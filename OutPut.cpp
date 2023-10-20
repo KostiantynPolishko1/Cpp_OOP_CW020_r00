@@ -9,7 +9,7 @@ void showFigure(const char* arr, const short sizeRow, const short sizeCol)
 	}
 }
 ;
-void printMenu(std::string* arr, const short size, std::string nameMenu, const short& indMenu) {
+void printMenu(const char** arr, const short size, std::string nameMenu, const short& indMenu) {
 
     cout << "\n MENU: " << nameMenu << "\n";
 

@@ -21,6 +21,10 @@ public:
 		figure = nullptr;
 	}
 
+	~Figure2D() {
+		prtFigure = nullptr;
+	}
+
 public:
 	char* getPtrFigure() const {
 		return this->prtFigure;

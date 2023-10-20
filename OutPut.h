@@ -15,7 +15,7 @@ enum MENU {
 ;
 void showFigure(const char*, const short, const short)
 ;
-void printMenu(std::string* arr, const short, std::string, const short&)
+void printMenu(const char** arr, const short, std::string, const short&)
 ;
 short indexMenu(short&, const short)
 ;

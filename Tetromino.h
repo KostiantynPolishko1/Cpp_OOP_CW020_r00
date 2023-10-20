@@ -38,7 +38,7 @@ public:
 	}
 
 #pragma region operators
-	const Figure2D& operator[] (const short index)
+	const Figure2D& operator[] (const short& index)
 	{
 		//this->index = index;
 		return this->tetFigure[this->index];

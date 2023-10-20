@@ -4,14 +4,14 @@
 int main()
 {
 	short indMenu{}, indFigure{};
-	std::string arrMenu[] = { "Next", "Previous", "Exit" };
+	const char* arrMenu[] = { "Next", "Previous", "Exit" };
 
 	Tetromino tetris;
 	showFigure(tetris[0].getPtrFigure(), tetris[0].getSize(), tetris[0].getSize());
 
 	do {
-		printMenu(arrMenu, size(arrMenu), "NextPrevious", indMenu);
-		indFigure = indexMenu(indMenu, size(arrMenu));
+		printMenu(arrMenu, std::size(arrMenu), "NextPrevious", indMenu);
+		indFigure = indexMenu(indMenu, std::size(arrMenu));
 		system("CLS");
 
 		if (indFigure == W_NEXT)
